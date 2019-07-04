@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head id="arriba">
+        <title>EventApp</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="css/styleInicio.css">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">-->
+
+
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">-->
+    <nav class="navbar navbar-expand-lg bg-custom">
+        <a class="navbar-brand" href="index.html"><span></span>EVENTAPP</a>
+        <div class="collapse navbar-collapse xcx">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Buscar<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">¿Cómo funciona?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contactanos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</head>
+<body id="fondo">
+
+
+    <div class="contenedor">
+        <div class="cont-izq">
+            <form>
+                <label><h1>Quiero Registrarme!</h1></label>
+                <br>
+                <br>
+                <br>
+                <input type="text" name="nombres" class="form-control" placeholder="Nombre(s)">
+                <br>
+                <div style="width: 49%; float: left;">
+                    <input type="text" name="apellidoPat" class="form-control" placeholder="Apellido Paterno">
+                </div>
+                <div style="width: 49%; float: right;">
+                    <input type="text" name="apellidoMat" class="form-control" placeholder="Apellido Materno">
+                    <br>
+                </div>
+                <input type="text" name="correo" class="form-control" placeholder="Escribe tu correo">
+                <br>
+                <input type="password" name="escriContra" class="form-control" placeholder="Escribe una contraseña">
+                <div style="width: 49%; float: left;">
+                    <br>
+                    <label><b>Fecha de Nacimiento:</b></label>
+                    <input type="date" name="fechaNac" class="form-control" value="Selecciona Fecha de Nacimiento">
+                </div>
+                <br>
+                <div style="width: 49%; float: right;">
+                    <label><b>Sexo:</b></label>
+                    <br>
+                    <input type="radio" name="sexoM" id="botonsex"> Masculino <input type="radio" name="sexoF"> Femenino
+                    <br>
+                    <input type="radio" name="sexoO"> Otro
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <input type="submit" name="nombres" value="Registrar" class="btn btn-primary" id="boton">
+            </form>
+        </div>
+        <div class="cont-der">
+            <form action="#">
+                <label><h1>Iniciar sesion</h1></label>
+                <br>
+                <br>
+                <label>Bienvenido de regreso</label>
+                <br>
+                <br>
+                <br>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input type="email" class="form-control" id="email" placeholder="Escribe tu email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input type="password" class="form-control" id="pwd" placeholder="Escribe tu contraseña">
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox"> Recuérdame</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle"></script>
+    <script src="js/bootstrap.bundle.min"></script>
+    <script src="js/bootstrap"></script>
+    <script src="js/bootstrap.min"></script>
+</body>
+</html>
